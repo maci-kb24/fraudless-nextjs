@@ -3,7 +3,6 @@
 import Link from "next/link";
 import  { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Button from "./Button";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -55,8 +54,12 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:flex">
-          <Button>Login</Button>
-          <Button>Sign Up</Button>
+          <div className="mr-4">
+            <button className="text-gray-500 hover:bg-slate-900 hover:text-white px-4 py-2 rounded bg-transparent">Sign In</button>
+          </div>
+          <div>
+            <button className="bg-slate-900 text-white px-4 py-2 rounded">Get Started</button>
+          </div>
         </div>
 
         <div
