@@ -99,7 +99,7 @@ const Faq = () => {
                 </div>
             </div>
         </div>
-      </section>  
+    </section>  
   )
 }
 
