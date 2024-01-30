@@ -3,10 +3,10 @@ import LogoSlider from "./components/LogoSlider";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Timeline from "./components/Timeline";
-import HowItWorks from "./components/HowItWorks";
+// import HowItWorks from "./components/HowItWorks";
 import Cta from "./components/Cta";
 import Features from "./components/Features";
-// import Stats from "./components/Stats";
+import Benefits from "./components/Benefits";
 
 export default function Home() {
   return (
@@ -14,15 +14,12 @@ export default function Home() {
       <Hero />
       <LogoSlider />
       <Timeline />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <Features />
-      <section className="benefits">
-        <h2>Benefits</h2>
-      </section>
+      <Benefits />
       <Faq />
       <Testimonials />
       <Cta />
-      {/* <Stats /> */}
     </main>
   )
 }

@@ -46,25 +46,25 @@ const Navbar = () => {
             {links.map(({ id, link }) => (
             <li
                 key={id}
-                className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+                className="nav-links px-4 cursor-pointer capitalize  hover:scale-105 duration-200"
             >
-                <Link href={link}>{link}</Link>
+                <Link className="font-medium" href={link}>{link}</Link>
             </li>
             ))}
         </ul>
 
         <div className="hidden md:flex">
           <div className="mr-4">
-            <button className="text-gray-500 hover:bg-slate-900 hover:text-white px-4 py-2 rounded bg-transparent">Sign In</button>
+            <button className="text-gray-500 hover:bg-blue-600 border-blue-600 hover:text-slate-50 px-4 py-2 bg-transparent">Sign In</button>
           </div>
           <div>
-            <button className="bg-slate-900 text-white px-4 py-2 rounded">Get Started</button>
+            <button className="bg-blue-600 text-white px-4 py-2 ">Get Started</button>
           </div>
         </div>
 
         <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        className="cursor-pointer pr-4 z-10 text-slate-500 md:hidden">
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
 

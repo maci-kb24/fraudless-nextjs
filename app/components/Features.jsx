@@ -1,15 +1,14 @@
 
 const Features = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
-        <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-            explore our <br /> awesome{" "}
-            <span className="underline decoration-blue-500">Components</span>
-        </h1>
-        <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam
-            voluptatibus
+    <section className="bg-white">
+        <div className="container px-6 py-24 mx-auto">
+        <h2 className="font-semibold capitalize ">
+        Real-Time Anomaly Detection: <br/> Unleash the Power of Instant
+            <span className="underline decoration-blue-500">Security</span>
+        </h2>
+        <p className="mt-4  xl:mt-6 ">
+        Ever wish you could safeguard your business with a watchful eye that never blinks?<br /> Introducing our Real-Time Anomaly Detection – your vigilant guardian against fraudulent activities.
         </p>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div className="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
@@ -35,13 +34,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                elegant Dark Mode
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className=" font-semibold capitalize">
+            Instant Vigilance
+            </h3>
+            <p>
+            Our cutting-edge AI algorithms work tirelessly to analyze transactions in real time, ensuring that every action is scrutinized the moment it occurs. Say goodbye to delayed responses and hello to immediate protection.
             </p>
             <a
                 href="#"
@@ -80,13 +77,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Easy to customiztions
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className="font-semibold capitalize ">
+            Swift Alerts
+            </h3>
+            <p>
+            Detect anomalies as they happen. Receive instant alerts the moment our system identifies suspicious patterns or activities. Stay steps ahead and act decisively to keep your business secure.
             </p>
             <a
                 href="#"
@@ -125,13 +120,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple &amp; clean designs
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className=" font-semibold capitalize ">
+            Continuous Learning
+            </h3>
+            <p>
+            Our AI doesn&apos;t rest – it learns and adapts to new threats over time. The more it sees, the smarter it gets. It&apos;s like having a security expert that evolves with the evolving landscape of potential risks.
             </p>
             <a
                 href="#"
@@ -170,13 +163,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple &amp; clean designs
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className="font-semibold capitalize">
+            Dynamic Rule Customization
+            </h3>
+            <p>
+            Tailor the anomaly detection rules to suit your business&apos;s unique characteristics and industry-specific patterns
             </p>
             <a
                 href="#"
@@ -215,13 +206,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple &amp; clean designs
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className="font-semibold capitalize">
+            Intuitive Dashboard Insights
+            </h3>
+            <p>
+            Access a user-friendly dashboard offering clear insights into detected anomalies and overall system performance
             </p>
             <a
                 href="#"
@@ -260,13 +249,11 @@ const Features = () => {
                 />
                 </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple &amp; clean designs
-            </h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-                eveniet
+            <h3 className="font-semibold  capitalize">
+            Seamless Integration with Existing Systems
+            </h3>
+            <p>
+            Integrate our Real-Time Anomaly Detection seamlessly with your current systems and workflows
             </p>
             <a
                 href="#"

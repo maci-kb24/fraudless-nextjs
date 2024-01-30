@@ -11,27 +11,27 @@ const LogoSlider = () => {
                 <li>
                     <Image  src={Facebook} alt="Facebook logo" width={120} height={20} />
                 </li>
-                {/* <li>
-                    <Image src="../public/images/disney.svg" alt="Disney" width={120} height={20} className="w-full h-auto"  />
+                <li>
+                    <Image src="../../public/images/disney.svg" alt="Disney" width={120} height={20} className="w-full h-auto"  />
                 </li>
                 <li>
-                    <Image src="../public/images/airbnb.svg" alt="Airbnb" width={120} height={20} className="w-full h-auto" />
+                    <Image src="../../public/images/airbnb.svg" alt="Airbnb" width={120} height={20} className="w-full h-auto" />
                 </li>
                 <li>
-                    <Image src="../public/images/apple.svg" alt="Apple" width={120} height={20} className="w-full h-auto" />
+                    <Image src="../../public/images/apple.svg" alt="Apple" width={120} height={20} className="w-full h-auto" />
                 </li>
                 <li>
-                    <Image src="../public/images/spark.svg" alt="Spark" width={120} height={20} className="w-full h-auto" />
+                    <Image src="../../public/images/spark.svg" alt="Spark" width={120} height={20} className="w-full h-auto" />
                 </li>
                 <li>
-                    <Image src="../public/images/samsung.svg" alt="Samsung" width={120} height={20} className="w-full h-auto" />
+                    <Image src="../../public/images/samsung.svg" alt="Samsung" width={120} height={20} className="w-full h-auto" />
                 </li>
                 <li>
-                    <Image src="../public/images/quora.svg" alt="Quora" width={120} height={20} className="w-full h-auto" />
+                    <Image src="../../public/images/quora.svg" alt="Quora" width={120} height={20} className="w-full h-auto" />
                 </li>
                 <li>
                     <Image src="../public/images/sass.svg" alt="Sass" width={120} height={40} className="w-full h-auto" />
-                </li> */}
+                </li>
             </ul>                
         </div>
       </div>
