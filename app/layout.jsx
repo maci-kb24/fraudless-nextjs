@@ -1,10 +1,8 @@
-// import { Inter } from 'next/font/google'
 import { Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-// const inter = Inter({ subsets: ['latin'] })
 
 const playfair = Playfair_Display({ subsets: ['latin'], style: 'normal', weight: "400" })
 

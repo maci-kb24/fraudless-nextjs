@@ -9,8 +9,9 @@ const Hero = () => {
         <p className="pt-2">Detect, Prevent, and Secure Your Transactions with Fraudless</p>
       </div>
       <div className="pt-6">
-        <button className="px-4 py-2 bg-blue-500 text-slate-50 mr-4">Learn More</button>
-        <button className="px-4 py-2 bg-blue-500 text-slate-50">Get Started</button>      
+        <input type="email" name="email" placeholder="Enter your email" />
+        <button className="px-4 py-2 bg-blue-500 text-slate-50 mr-4">Join waitlist</button>
+        {/* <button className="px-4 py-2 bg-blue-500 text-slate-50">Get Started</button>       */}
       </div>
     </div>
     <div className="dashboard-hero mx-auto mt-20">

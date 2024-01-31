@@ -3,7 +3,6 @@ import LogoSlider from "./components/LogoSlider";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Timeline from "./components/Timeline";
-// import HowItWorks from "./components/HowItWorks";
 import Cta from "./components/Cta";
 import Features from "./components/Features";
 import Benefits from "./components/Benefits";
@@ -14,7 +13,6 @@ export default function Home() {
       <Hero />
       <LogoSlider />
       <Timeline />
-      {/* <HowItWorks /> */}
       <Features />
       <Benefits />
       <Faq />

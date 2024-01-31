@@ -10,37 +10,36 @@ const Navbar = () => {
     const links = [
         {
           id: 1,
-          link: "Product",
+          link: "product",
         },
         {
           id: 2,
-          link: "Solution",
-        },
-        {
-          id: 3,
-          link: "Industries",
+          link: "solution",
         },
         {
           id: 4,
-          link: "Resources",
+          link: "blog",
         },
         {
           id: 5,
-          link: "Company",
+          link: "about",
+        },
+        {
+          id: 5,
+          link: "contact",
         },
       ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 container mx-auto">
         <div>
-            <a
+            <Link
             className="text-slate-900 text-xl"
-            href="#"
-            target="_blank"
+            href="/"
             rel="noreferrer"
             >
             Fraudless
-            </a>
+            </Link>
         </div>
         <ul className="hidden md:flex">
             {links.map(({ id, link }) => (

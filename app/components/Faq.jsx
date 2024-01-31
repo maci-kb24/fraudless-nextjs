@@ -4,7 +4,7 @@ const Faq = () => {
     <section className="faq">
         <div className="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white">
             <div className="container mx-auto">
-                <div className="flex px-8 py-[8rem] gap-[8rem]">
+                <div className="flex md:flex-row px-8 py-[8rem] gap-[8rem]">
                     <div>
                         <h1 className="text-slate-900">Frequently<br/> Asked Questions</h1>
                     </div>
