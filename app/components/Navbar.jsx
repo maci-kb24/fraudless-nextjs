@@ -17,9 +17,13 @@ const Navbar = () => {
           link: "solution",
         },
         {
-          id: 4,
-          link: "blog",
+          id: 3,
+          link: "industries",
         },
+        // {
+        //   id: 4,
+        //   link: "blog",
+        // },
         {
           id: 5,
           link: "about",
@@ -54,7 +58,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <div className="mr-4">
-            <button className="text-gray-500 hover:bg-blue-600 border-blue-600 hover:text-slate-50 px-4 py-2 bg-transparent">Sign In</button>
+            <button className="text-gray-500 border-1 hover:bg-blue-600 border-blue-600 hover:text-slate-50 px-4 py-2 bg-transparent">Sign In</button>
           </div>
           <div>
             <button className="bg-blue-600 text-white px-4 py-2 ">Get Started</button>
