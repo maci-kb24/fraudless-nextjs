@@ -1,9 +1,4 @@
-import Image from "next/image"
-import Team from '../../public/images/team_up.svg';
-import { PiRocketDuotone } from "react-icons/pi";
-import { MdOutlineSecurity } from "react-icons/md";
-import { GoGoal } from "react-icons/go";
-import { GiArchiveResearch } from "react-icons/gi";
+import Image from "next/image";
 import BgImg from '../../public/images/part-bg-1-uai-258x194.jpg';
 import TeamUp from '../../public/images/team_up.svg';
 
